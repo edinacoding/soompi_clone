@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/lwl1vrc.css" />
+    <title>Soompi - Breaking K-Pop and K-Drama News, Exclusives, and Videos</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">
+          <div class="logo">
+            <a href="index.html"><img class="filter-logo" src="./images/black_soompi_logo.svg" alt=""></a>
+          </div>
+          <nav>
+            <div class="menu_icon">
+              <div class="hambi">
+                <div class="menu_icon_div"></div>
+                <div class="menu_icon_div"></div>
+                <div class="menu_icon_div"></div>
+              </div>
+            </div>
+            <div class="dropbtn_container hide-mobile">
+              <div class="dropbtn">Explore</div>
+              <div class="dropbtn dropbtn_arrow">&#9660;</div>
+            </div>
+            
+            <a class="hide-mobile" href="mix.html">Quiz</a>
+            <a class="hide-mobile" href="mix.html">Video</a>
+            <a class="hide-mobile" href="mix.html">Celeb</a>
+            <a class="hide-mobile" href="mix.html">Style</a>
+            <a class="hide-mobile" href="mix.html">Tv/Film</a>
+            <a class="hide-mobile" href="mix.html">Music</a>
+            <a class="hide-mobile" href="mix.html">Features</a>
+          </nav>
+          
+          <div class="icons">
+            <button class="icon filter-ccc" style="background: url(images/search_icon.svg)" onclick="searchBar()"></button>
+              <div id="search_bar" class="search">
+                <div class="search_input">
+                  <input type="text" placeholder="Search Articles">
+                </div>
+                
+              </div>
+            <button class="icon filter-lightblue" style="background: url(images/darkmode.svg)" onclick="darkMode()"></button>
+            <button class="icon filter-ccc" style="background: url(images/black_user_icon.svg)" onclick="userLogin()"></button>
+              <div id="userLogin" class="login">
+                Under maintenance.
+              </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="dropdown-content" id="myDropdown">
+        <div class="dropdown_containers">
+          <div class="dropdown_container dropdown_container_border">
+            <a href="mix.html">Latest</a>
+            <a href="mix.html">Trending</a>
+            <a href="mix.html">Popular</a>
+            <a href="mix.html">Breaking</a>
+          </div>
+          <div class="dropdown_container">
+            <a href="mix.html">MV/Teaser</a>
+            <a href="mix.html">Drama</a>
+          </div>
+          <div class="dropdown_container dropdown_container_border">
+            <a href="mix.html">Culture</a>
+            <a href="mix.html">Exclusives</a>
+          </div>
+          <div class="dropdown_container">
+            <a href="mix.html">Community</a>
+            <a href="mix.html">Forums</a>
+            <a href="mix.html">Apps</a>
+            <a href="mix.html">Viki</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hamburger_menu" id="hamburger">
+        <div class="hamburger_items">
+          <div class="hamburger_item">
+            <div class="dropbtnhamb">Explore</div>
+            <div class="dropbtnhamb dropbtnhamb_arrow">&#9660;</div>
+          </div>
+              <div class="dropdown_hamburger" id="dd_hamburger">
+                <a class="dropbtnhamb_item" href="mix.html">Latest</a>
+                <a class="dropbtnhamb_item" href="mix.html">Trending</a>
+                <a class="dropbtnhamb_item" href="mix.html">Popular</a>
+                <a class="dropbtnhamb_item" href="mix.html">Breaking</a>
+                <a class="dropbtnhamb_item" href="mix.html">MV/Teaser</a>
+                <a class="dropbtnhamb_item" href="mix.html">Drama</a>
+                <a class="dropbtnhamb_item" href="mix.html">Culture</a>
+                <a class="dropbtnhamb_item" href="mix.html">Exclusives</a>
+                <a class="dropbtnhamb_item" href="mix.html">Community</a>
+                <a class="dropbtnhamb_item" href="mix.html">Forums</a>
+                <a class="dropbtnhamb_item" href="mix.html">Apps</a>
+                <a class="dropbtnhamb_item" href="mix.html">Viki</a>
+              </div>
+          <div class="hamburger_item"><a href="mix.html">Quiz</a></div>
+          <div class="hamburger_item"><a href="mix.html">Video</a></div>
+          <div class="hamburger_item"><a href="mix.html">Celeb</a></div>
+          <div class="hamburger_item"><a href="mix.html">Style</a></div>
+          <div class="hamburger_item"><a href="mix.html">Tv/Film</a></div>
+          <div class="hamburger_item"><a href="mix.html">Music</a></div>
+          <div class="hamburger_item"><a href="mix.html">Features</a></div>
+        </div>
+      </div>
+
+      <main>
+        <div class="trending">
+          <div class="featured">
+            <div class="featured-post-img">
+              <a href="post.html"><img
+                src="images/news/dummy_1.jpeg"
+                alt="Watch: HYBE/ADOR’s New Girl Group NewJeans Drops MV For “Hurt”"
+              /></a>
+              <div class="wrapper"></div>
+            </div>
+
+            <div class="featured_title">
+              <a href="post.html">Watch: HYBE/ADOR’s New Girl Group NewJeans Drops MV For “Hurt”</a>
+            </div>
+            <div class="featured-list-type">
+              <div class="list-category">tv/film</div>
+              <div class="list-post-time">15 hours ago</div>
+            </div>
+          </div>
+
+          <div class="trending-now">
+            <div class="secton-title">Trending Now ></div>
+            <div class="gradiant-slash">
+              <img src="./images/slash_img.svg" alt="">
+            </div>
+            <div class="list"></div>
+          </div>
+        </div>
+
+        <div class="latest-news-block">
+          <div class="latest-news">
+            <div class="secton-title">Latest News ></div>
+            <div class="gradiant-slash">
+              <img src="./images/slash_img.svg" alt="">
+            </div>
+          <div id="sliderwrapper">
+          <div id="carousel">
+            <div id="slidercontent">
+              <div class="slide-thumbnail">
+              <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_5.jpeg" alt=""></a>
+               <div class="list-category">mv/teaser</div>
+               <div class="list-post-time">Jul 24, 2022</div>
+               <div class="list-post-title"><a href="post.html">Mark your calendars for Girls’ Generation’s long-awaited return!</a></div>
+           </div>
+           <div class="slide-thumbnail">
+              <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_13.jpeg" alt=""></a>
+               <div class="list-category">mv/teaser</div>
+               <div class="list-post-time">Jul 24, 2022</div>
+               <div class="list-post-title"><a href="post.html">IVE Announces Agust Comeback Date With 1st Teaser For 'After Like'</a></div>
+           </div>
+           <div class="slide-thumbnail">
+              <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_4.jpeg" alt=""></a>
+               <div class="list-category">mv/teaser</div>
+               <div class="list-post-time">Jul 24, 2022</div>
+               <div class="list-post-title"><a href="post.html">CIX released an intriguing animated teaser for the upcoming EP</a></div>
+           </div>
+           <div class="slide-thumbnail">
+              <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_11.jpeg" alt=""></a>
+               <div class="list-category">mv/teaser</div>
+               <div class="list-post-time">Jul 24, 2022</div>
+               <div class="list-post-title"><a href="post.html">THE BOYZ kicked off the countdown to their August comeback</a></div>
+           </div>
+           <div class="slide-thumbnail">
+            <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_5.jpeg" alt=""></a>
+             <div class="list-category">mv/teaser</div>
+             <div class="list-post-time">Jul 24, 2022</div>
+             <div class="list-post-title"><a href="post.html">Mark your calendars for Girls’ Generation’s long-awaited return!</a></div>
+         </div>
+         <div class="slide-thumbnail">
+            <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_13.jpeg" alt=""></a>
+             <div class="list-category">mv/teaser</div>
+             <div class="list-post-time">Jul 24, 2022</div>
+             <div class="list-post-title"><a href="post.html">IVE Announces Agust Comeback Date With 1st Teaser For 'After Like'</a></div>
+         </div>
+         <div class="slide-thumbnail">
+            <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_4.jpeg" alt=""></a>
+             <div class="list-category">mv/teaser</div>
+             <div class="list-post-time">Jul 24, 2022</div>
+             <div class="list-post-title"><a href="post.html">CIX released an intriguing animated teaser for the upcoming EP</a></div>
+         </div>
+         <div class="slide-thumbnail">
+            <a href="post.html"><img class="thumbnail-pic" src="./images/news/dummy_11.jpeg" alt=""></a>
+             <div class="list-category">mv/teaser</div>
+             <div class="list-post-time">Jul 24, 2022</div>
+             <div class="list-post-title"><a href="post.html">THE BOYZ kicked off the countdown to their August comeback</a></div>
+         </div>
+            </div>
+          </div>
+          <button id="prev" onclick="left()">
+            <span>&#8249;</span>
+          </button>
+          <button id="next" onclick="Right()">
+            <span>&#8250;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+        <div class="watch-now-block">
+          <div class="watch-now">
+            <div class="secton-title white-color">Watch Now ></div>
+            <div class="gradiant-slash">
+              <img src="./images/slash_img.svg" alt="">
+            </div>
+            <div class="watch-now-container"></div>
+          </div>
+        </div>
+
+        <div class="must-read_spotlight-block">
+          <div class="must-read_spotlight">
+            <div class="must-read">
+              <div class="secton-title">Must Read ></div>
+              <div class="gradiant-slash">
+                <img src="./images/slash_img.svg" alt="">
+              </div>
+              <div class="must-read-list"></div>
+            </div>
+
+            <div class="spotlight">
+              <div class="secton-title">Spotlight ></div>
+              <div class="gradiant-slash">
+                <img src="./images/slash_img.svg" alt="">
+              </div>
+              <div class="spotlight-block"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music_chart-block">
+          <div class="music_chart">
+            <div class="secton-title">Music Chart ></div>
+            <div class="gradiant-slash">
+              <img src="./images/slash_img.svg" alt="">
+            </div>
+              <div class="first-6">
+                <div class="number1-2">
+                  <div class="number1"></div>
+                  <div class="number2"></div>
+                </div>
+                <div class="number3-6">
+                  <div class="number3-4">
+                    <div class="chart_items3_4"></div>
+                  </div>
+                  <div class="number5-6">
+                    <div class="chart_items5_6"></div>
+                  </div>
+                </div>
+            </div>
+            <div class="number7-10">
+              <div class="number7-8">
+                <div class="chart_items7_8"></div>
+              </div>
+              <div class="number9-10">
+                <div class="chart_items9_10"></div>
+             </div>
+            </div>
+              <!-- <div class="chart_items"></div>
+              <div class="chart_items"></div>
+              <div class="chart_items"></div>
+              <div class="chart_items"></div> -->
+          </div>
+        </div>
+
+        <div class="popular-block">
+          <div class="popular">
+            <div class="secton-title">Popular</div>
+            <div class="gradiant-slash">
+              <img src="./images/slash_img.svg" alt="">
+            </div>
+            <div class="popular-categories">
+              <div class="popular-category">
+                <h2>Music ></h2>
+                <div class="thumnail_popular_img">
+                  <a href="mix.html"><img
+                    class="thumbnail-pic"
+                    src="images/popular/popular_001.png"
+                    alt="Watch: HYBE/ADOR’s New Girl Group NewJeans Drops MV For “Hurt”"
+                  /></a>
+                  <div class="wrapper_popular"></div>
+                </div>
+                <div class="list-popular-music"></div>
+              </div>
+              <div class="popular-category">
+                <h2>Celeb ></h2>
+                <div class="thumnail_popular_img">
+                  <a href="mix.html"><img
+                    class="thumbnail-pic"
+                    src="images/popular/popular_002.png"
+                    alt="Watch: HYBE/ADOR’s New Girl Group NewJeans Drops MV For “Hurt”"
+                  /></a>
+                  <div class="wrapper_popular"></div>
+                </div>
+                <div class="list-popular-celeb"></div>
+              </div>
+              <div class="popular-category">
+                <h2>Tv/Film ></h2>
+                <div class="thumnail_popular_img">
+                  <a href="mix.html"><img
+                    class="thumbnail-pic"
+                    src="images/popular/popular_003.png"
+                    alt="Watch: HYBE/ADOR’s New Girl Group NewJeans Drops MV For “Hurt”"
+                  /></a>
+                  <div class="wrapper_popular"></div>
+                </div>
+                <div class="list-popular-tv_film"></div>
+              </div>
+              <div class="popular-category">
+                <h2>Quiz ></h2>
+                <div class="thumnail_popular_img">
+                  <a href="mix.html"><img
+                    class="thumbnail-pic"
+                    src="images/popular/popular_004.png"
+                    alt="Watch: HYBE/ADOR’s New Girl Group NewJeans Drops MV For “Hurt”"
+                  /></a>
+                  <div class="wrapper_popular"></div>
+                </div>
+                <div class="list-popular-quiz"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="submit_news_tip">
+          <p>Submit News Tip</p>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer_other">
+          <div class="footer_block">
+            <h3>Follow us</h3>
+            <ul>
+              <li class="footer_list_item">
+                <a href="https://www.facebook.com/soompi">Facebook</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="https://www.instagram.com/soompi">Instagram</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="https://twitter.com/soompi">Twitter</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="https://soompi.tumblr.com/">Tumblr</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="https://www.youtube.com/user/soompi">Youtube</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="https://plus.google.com/+SoompiKpop">Google+</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_block">
+            <h3>Sitemap</h3>
+            <ul>
+              <li class="footer_list_item">
+                <a href="#">About Us</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Site Guidelines</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Cookie Settings</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Help Center</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Cookie Policy</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Jobs</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Copyright Policy</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Apps</a>
+              </li>
+              <li class="footer_list_item">
+                <a href="#">Advertisement Info</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_block">
+            <h3>Languages</h3>
+            <div class="footer_langs">
+              <a href="#" class="active">English</a> | <a href="#">Espanol</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          © 1998 – 2022 Viki Inc. <br />
+          Soompi is part of the Rakuten Viki family.
+        </div>
+      </footer>
+    </div>
+    <script src="mix.js"></script>
+    <script src="scripts.js"></script>
+    <script src="music_chart.js"></script>
+    <script src="similiar_articles.js"></script>
+    <script src="watchnow.js"></script>
+    <script src="mustread_spotlight.js"></script>
+    <script src="popular.js"></script>
+    <script src="trending_news.js"></script>
+    <script src="related.js"></script>
+  </body>
+</html>
